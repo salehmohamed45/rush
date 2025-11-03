@@ -32,7 +32,7 @@
 - **Appropriate naming**: Variables, functions, and types have clear, descriptive names
 - **Concise implementation**: ~344 LOC for core functionality (excluding tests) shows excellent code density
 - **No unnecessary abstractions**: Keeps things simple without over-engineering
-- **Good use of Go 1.22+ features**: Leverages `r.SetPathValue()` and `r.PathValue()` for path parameters
+- **Good use of Go 1.22+ features**: Leverages `r.SetPathValue()` and `r.PathValue()` for path parameters (note: go.mod lists 1.24.4 which doesn't exist, likely meant 1.22.4)
 
 ### Code Metrics:
 ```

@@ -66,10 +66,11 @@
 - Standard library compatible
 
 ### 6. **Modern Go Features**
-- Uses Go 1.22+ path values API
+- Uses Go 1.22+ path values API (`r.PathValue()`, `r.SetPathValue()`)
 - Idiomatic Go throughout
 - Proper interface usage
 - Clean, readable code
+- Note: go.mod lists 1.24.4 (likely meant 1.22.4 or placeholder)
 
 ---
 
